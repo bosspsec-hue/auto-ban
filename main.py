@@ -3,7 +3,7 @@ from discord.ext import commands
 import os
 
 # ===== TOKEN =====
-TOKEN = os.getenv("TOKEN")
+TOKEN = os.environ("TOKEN")
 
 # ===== 頻道設定 =====
 HONEYPOT_CHANNELS = {1492474797555187844, 1479671657714024620}
